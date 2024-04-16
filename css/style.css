@@ -1,0 +1,538 @@
+ @font-face {
+   font-family: Girloy;
+   src: url(../shrift/shrift/Gilroy-Light.otf);
+ }
+
+ @font-face {
+   font-family: Fredoka One;
+   src: url(../shrift/shrift/FredokaOne-Regular.ttf);
+ }
+
+ body {
+   font-family: Girloy;
+   height: 100vh;
+   margin: 150px;
+ }
+
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ /*
+
+.oval-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80%;
+  background: #01541a;
+  padding: 20px;
+}
+
+.oval-frame {
+  top: 650px;
+  width: 84px;
+  height: 18px;
+  left: 251px;
+  border-radius: 20px;
+}
+
+.group {
+  width: 700px;
+  height: 765px;
+  top: 169px;
+  left: 861px;
+  gap: 0px;
+
+
+}
+
+.colorful-text {
+  background-image: linear-gradient(to right, green, rgb(4, 35, 3));
+  background-clip: Make a Beautiful Garden with Your own Hand;
+  color: transparent;
+}
+/*  */
+ section.hello {
+   background-image: url(../Group\ 1\ \(1\).png);
+   background-repeat: no-repeat;
+   background-position: top calcn(4.4vw + 55px);
+   background-image: url(../image/Ellipse\ 42.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+
+ }
+
+ section.hello {
+   background-image: url(../Vector.png);
+   background-repeat: no-repeat;
+   background-position: top calc(4.4vw + 55px);
+   background-image: url(../image/Ellipse\ 42.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+ }
+
+ /* .img {
+  width: 200px;
+  height: 200px;
+  background-image: url(../cactus.png);
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.text-container {
+  margin: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 18px;
+
+}
+
+.text-container {
+  margin-top: 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 400;
+  width: 353;
+  height: 79px;
+}
+
+ p {
+    font-size: 46px;
+  } */
+ .oval-frame {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   border-radius: 80%;
+   padding: 20px;
+   gap: 12px;
+
+ }
+
+ .inv {
+   font-family: Gilroy;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+ }
+
+ */ .group-1 {
+   width: 650px;
+   height: 750px;
+
+
+
+   z-index: 0;
+   background-image: url(../image/Ellipse\ 42.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+ }
+
+
+ .green-text {
+   color: lightgreen;
+   font-family: Fredoka One;
+   font-size: 72px;
+   font-weight: 400;
+   line-height: 76px;
+   text-align: left;
+
+ }
+
+ .value {
+   font-size: 72px;
+   font-weight: 400;
+   line-height: 76px;
+   text-align: left;
+   margin-bottom: 30px;
+
+ }
+
+ .courseInfo {
+   display: flex;
+   position: relative;
+ }
+
+
+
+ .cactus {
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+   left: 450px;
+   padding: 12px;
+   background-color: aliceblue;
+   border: 1px solid white;
+   border-radius: 12px;
+
+
+
+   z-index: 1;
+   background-image: url(../image/Ellipse\ 41.png);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+ }
+
+ .shop_now {
+   border: solid 1px greenyellow;
+   background-color: #FFF;
+   padding: 10px;
+   border-radius: 50%;
+   position: absolute;
+   top: 0;
+   padding: 20px;
+ }
+
+ .gray {
+   color: #707070;
+   font-family: Gilroy;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+
+ }
+
+
+ .little {
+   display: flex;
+   margin-top: 50px;
+   background-image: url(../image/Ellipse\ 41.png);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+ }
+
+ .paragraphs {
+   width: 200px;
+   height: 150px;
+   font-family: Fredoka One;
+ }
+
+ #flower {
+   width: 130px;
+   height: 200px;
+ }
+
+ .hello {
+   margin-bottom: 20px;
+ }
+
+ .imgs {
+   gap: 20px;
+   display: flex;
+ }
+
+ #top-flower {
+   top: 0;
+   left: 0;
+   position: absolute;
+ }
+
+ .Professional-service {
+   /* background-color: rgb(124, 255, 124); */
+   display: flex;
+   position: relative;
+   background-image: url(../image/Ellipse\ 41.png);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+
+ }
+
+ .oval-frame {
+   position: relative;
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   border-radius: 80%;
+   padding: 10px;
+ }
+
+ .text-container {
+   position: relative;
+   left: 20px;
+
+ }
+
+ .navigation {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+ }
+
+ .a-list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 350px;
+   align-items: center;
+
+
+   a {
+     text-decoration: none;
+     color: black;
+     font-family: Girloy;
+   }
+ }
+
+ .loginBtn {
+   background-color: rgb(1, 206, 12);
+   border: none;
+   color: white;
+   border-radius: 12px;
+   padding: 10px;
+
+ }
+
+
+ #arrow {
+   transform: rotate(20deg);
+   position: absolute;
+   right: 0;
+   left: 120px;
+ }
+
+
+ .etx {
+   font-family: Fredoka One;
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 60px;
+   text-align: left;
+
+ }
+
+ .tex {
+   font-family: Gilroy;
+   font-size: 17px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+   color: rgba(103, 133, 112, 1);
+ }
+
+ .tx {
+   margin-top: 20px;
+   font-family: Gilroy;
+   font-size: 17px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+   color: rgba(103, 133, 112, 1);
+ }
+
+ .ps {
+   display: flex;
+   margin-top: 20px;
+   gap: 30px;
+   background-image: url(../image/Ellipse\ 41.png);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+ }
+
+ .b {
+   font-family: Gilroy;
+   font-size: 10px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+ }
+
+ .c {
+   margin-top: 20px;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: left;
+ }
+
+ .grid {
+
+   display: grid;
+   grid-template-columns: repeat(2, 200px);
+   grid-template-rows: repeat(2, 200px);
+   align-items: center;
+
+   .img1 {
+     grid-row: 1/3;
+     grid-column: 1/2;
+     align-items: center;
+     display: flex;
+     flex-direction: column;}
+
+     h3 {
+      font-family: Fredoka One;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      
+     }
+
+     p {
+      font-family: Gilroy;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 24px;
+       text-align: center;
+
+
+
+     }
+
+
+     .img2 {
+       grid-row: 1/2;
+       grid-column: 2/3;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+
+       h3 {
+        font-family: Fredoka One;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        
+       }
+  
+       p {
+        font-family: Gilroy;
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 24px;
+         text-align: center;
+
+       
+     }
+
+     .img-div {
+      background-image: url(../image/Vector\ \(4\).png);
+      background-repeat: no-repeat;
+      background-color: #678570;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+
+     .img3 {
+       grid-row: 2/3;
+       grid-column: 2/3;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+
+       h3 {
+        font-family: Fredoka One;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        
+       }
+  
+       p {
+        font-family: Gilroy;
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 24px;
+         text-align: center;
+
+       
+     }
+
+   }
+ }
+}
+
+ .imgi {
+   display: flex;
+   gap: 20px;
+ }
+
+
+ .Choose {
+   margin-top: 100px;
+ }
+
+ .choose-main p {
+   font-family: Gilroy;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 32px;
+   text-align: center;
+   color: #678570;
+   width: 430px;
+   height: 50pxs;
+   margin-top: 20px;
+ }
+
+ .choose-main {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+   h2 {
+     font-family: Fredoka One;
+     font-size: 30px;
+     font-weight: 200;
+     line-height: 60px;
+     text-align: center;
+   }
+ }
+
+ .Choose {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(../image/Ellipse\ 42.png);
+   background-repeat: no-repeat;
+   background-position: center bottom;
+
+
+ }
+
+ @media (max-width: 1100px) {
+   .courseInfo {
+     display: flex;
+     flex-direction: column-reverse;
+   }
+
+   .cactus {
+     display: none;
+   }
+
+   .oval-frame {
+     margin-bottom: 40px;
+   }
+
+   .Professional-service {
+     margin-top: 40px;
+     flex-direction: column;
+   }
+
+   .Choose {
+     flex-direction: column-reverse;
+   }
+
+   .Prof-service {
+     flex-direction: column-reverse;
+   }
+   .ps {
+    flex-direction: column;
+   }
+ }
